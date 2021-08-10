@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3026b5f41.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button id="modal-btn">login</button>
+
+    <div class="modal">
+        <div class="modal-content">
+            
+            <span class="close-btn">&times;</span>
+            <h1 style="text-align: center;">Sign in</h1>
+            <div class="div"><label for="user"><i class="fas fa-user fa-3x"></i></label>
+            <input type="text" placeholder="Enter username" id="username" name="user"  required><br></div>
+
+            <div class="div2"><label for="pas"><i class="fas fa-lock fa-3x" ></i></label>
+            <input type="password" placeholder="Enter Password" id="password" name="pas" required ><br></div>
+            <input type="checkbox" checked="checked" name="remember" class="remember"> Remember me<br>
+            <button type="submit" class="log" id="submit" onclick="validate()">Login</button>
+        </div>
+        
+        
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
