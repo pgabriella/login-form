@@ -1,0 +1,79 @@
+.modal {
+    display: none;
+    position: fixed; 
+    padding-top: 50px;
+    left: 0; 
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.5);
+    
+  }
+  .modal-content {
+    position: relative; 
+    background-color: white;
+    padding: 20px; 
+    margin: auto; 
+    width: 400px;  
+    height: 300px;
+    background: url(https://i.pinimg.com/564x/5f/4c/ce/5f4ccef0c436efdeac066c4dc162b7c1.jpg);
+    background-position: bottom;
+    background-attachment: fixed;
+    
+  }
+  #username{
+      padding: 10px;
+      border-radius: 20px;
+      margin-top: 2%;
+      height: 18px;
+      width: 167px;
+  }
+  #password{
+      padding: 10px;
+      border-radius: 20px;
+      margin-top: 2%;
+      height: 16px;
+      width: 170px;
+  }
+  .close-btn {
+    float: right; 
+    color: lightgray; 
+    font-size: 24px;  
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .close-btn:hover {
+    color: darkgray;
+  }
+ 
+  .img{
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  .remember{
+      margin-left: 34%;
+      margin-top: 2%;    
+  }
+  
+.log{
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+.log:hover{
+    color: blue;
+}
+.div{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.div2{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#modal-btn{
+    padding: 5px;
+    border-radius: 20px;
+    
+}
